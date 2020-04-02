@@ -1,0 +1,5 @@
+print("esse é o calculador")
+distancia = input("digite a distância percorrida: ")
+tempo = input("digite o tempo:")
+vel_med = float(distancia) / float(tempo)
+print("A velocidade média calculada foi de {:.2f} km/h" .format(vel_med))
